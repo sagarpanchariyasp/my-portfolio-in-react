@@ -1,0 +1,368 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse ul li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333333;
+  margin-right: 0.5rem;
+}
+
+.hero-section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #333333;
+}
+.hero-section strong {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333333;
+}
+.hero-section p {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.hero-hero:hover {
+  background-color: #0a478d;
+}
+
+.whatsappbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+#skills {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-carousel {
+  margin: 0 -10px;
+}
+
+.skill-item {
+  text-align: center;
+  padding: 10px;
+}
+
+.skill-item img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Slick carousel customization */
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #333;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+.slick-next {
+  right: -25px;
+}
+
+.my-portfolio h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* From Uiverse.io by asgardOP */
+.button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+.button svg {
+  color: white;
+  width: 30px;
+  height: 30px;
+  z-index: 9;
+}
+
+.button:nth-child(3) {
+  background: #0077B5;
+}
+
+.button:nth-child(4) {
+  background: #FF0000;
+}
+
+.button:nth-child(5) {
+  background: #333;
+}
+
+.button:nth-child(6) {
+  background: black;
+}
+
+.button:active {
+  transform: scale(0.85);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #002B5C;
+  border-radius: 50px;
+  z-index: -1;
+  border: 0px solid rgba(255, 255, 255, 0.411);
+  transition: 0.4s;
+}
+.contact-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.button:hover::before {
+  width: 0px;
+  height: 0px;
+}
+
+.socialmedia-button {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .socialmedia-button {
+    margin-top: 1.5rem;
+  }
+}
+.contact-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #333;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.contact-info, .contact-form {
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.contact-info {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contact-info h3, .contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.button a i {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f8f9fa;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input, textarea {
+  width: 100%;
+  height: 35px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+textarea {
+  height: 100px;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn i {
+  margin-right: 8px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-info, .contact-form {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .contact-info, .contact-form {
+    padding: 30px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  input, textarea {
+    padding: 10px;
+  }
+  .submit-btn {
+    padding: 10px 15px;
+  }
+  .hero-section {
+    text-align: center;
+  }
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
