@@ -6,6 +6,7 @@ import fleverly from '../assets/Fleverly.png';
 import SagarProtfolio from '../assets/sagarportfolio.png';
 import Shubhinvite from '../assets/shubhinvite.png';
 import EmailTool from '../assets/emailtool.svg';
+import WebDevReact from '../assets/webdevwithreact.png';
 
 const projects = [
   {
@@ -47,6 +48,13 @@ const projects = [
       previewLink: 'https://github.com/sagarpanchariyasp/emailSendingTool', // Provide the link to preview the tool or demo
       technologies: ['Node.js', 'Nodemailer', 'XLSX', ], // Add the relevant technologies used
     },
+    {
+      name: 'WebDev with React',
+      description: 'WebDev with React is a modern React.js application demonstrating dynamic and responsive web development. It includes component-based architecture, state management, routing, and API integration.',
+      image: WebDevReact, // Replace with the actual image or file name for this project
+      previewLink: 'https://github.com/sagarpanchariyasp/webdev-with-react', // Link to the GitHub repository
+      technologies: ['React.js', 'JavaScript', 'CSS', 'HTML'], // List of technologies used in the project
+    },    
 ];
 
 const Portfolio = () => {

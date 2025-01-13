@@ -66,9 +66,9 @@ const Skills = () => {
           <div
             key={index}
             className="skill-item"
-            style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}
+            style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', alignContent: 'center', textAlign: 'center' }}
           >
-            <img src={skill.image} alt={skill.name} />
+            <img src={skill.image} alt={skill.name} style={{ textAlign: 'center', justifySelf: 'center'}} />
             <p>{skill.name}</p>
           </div>
         ))}

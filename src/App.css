@@ -4,6 +4,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
 
 .navbar-collapse ul li {
   font-family: "Montserrat", sans-serif;
@@ -64,6 +71,7 @@ h2 {
 .skill-item {
   text-align: center;
   padding: 10px;
+  justify-content: center;
 }
 
 .skill-item img {
